@@ -1,0 +1,43 @@
+body {
+    color: #333;
+
+}
+
+/* header */
+header .h3 {
+    margin-top: 0;
+    color:#777;
+    font-weight: normal;
+
+}
+header .h4 {
+    color:#777;
+    font-weight: normal;
+}
+.banner img {
+    width:100%;
+}
+
+header .logos img {
+    width: 30px;
+}
+
+main .illus {
+    width: 100%;
+}
+
+main hr {
+    margin: 10px 0 0 0;
+}
+.home main hr {
+    margin-bottom: 10px;
+
+}
+.welcome {
+    padding-top: 10px;
+}
+.submissions {
+    background: #e6e6e6;
+    margin-top: 30px;
+    padding: 15px;
+}
