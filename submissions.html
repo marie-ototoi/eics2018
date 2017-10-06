@@ -25,7 +25,14 @@
                             <li><a href="index.html">Overview</a></li>
                             <li><a href="about.html">About EICS</a></li>
                             <li><a href="committee.html">Committee</a></li>
-                            <li class="active"><a href="submissions.html">Submissions</a></li>
+                            <li class="active"><a href="submissions.html" class="dropdown-toggle" data-toggle="dropdown" role="button">Submissions <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="submissions.html">Overview</a></li>
+                                    <li><a href="submissions.html#next">Next Iteration</a></li>
+                                    <li><a href="submissions.html#future">Future Iterations</a></li>
+                                    <li><a href="submissions.html#submissions">Submissions</a></li>
+                                </ul>
+                            </li>
                             <li class="dropdown">
                                 <a href="program.html" class="dropdown-toggle" data-toggle="dropdown" role="button">Program <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -85,10 +92,11 @@
 
                     <p>More information about the new PACM-HCI (EICS series) review and publication process can be found at <a href="http://eics.acm.org/pacm">http://eics.acm.org/pacm</a>.</p>
 
-                    <h2 class="h3">Next Iteration</h2>
+                    <h2 id="next" class="h3">Next Iteration</h2>
 
 
-                    <p>The Q4 round of PACM EICS reviewing will start in October and wrap up in early-mid December.  The due dates for the various phases of the process are as follows:</p>
+                    <p>The Q4 round of PACM EICS reviewing will start in October and wrap up in early-mid December.  The due dates for the various phases of the process are as follows</p>
+
                     <ul>
                         <li>Submissions: <strong>October 18, 2017</strong></li>
                         <li>Editorial Board bidding: <strong>October 20</strong></li>
@@ -105,9 +113,9 @@
 
                     <p>Due to the quick turnaround from this quarter into the next one (expected submission due date for Q1 2018 is January 10), papers deemed acceptable after this round will move directly into the Sheridan camera-ready process.  Any papers deemed nearly acceptable but requiring checks by editorial board members before final acceptance will be required to resubmit to the next round.</p>
 
-                    <h2 class="h3">Future Iterations</h2>
+                    <h2 id="future" class="h3">Future Iterations</h2>
                     <p>The structure of the EICS model is <strong>based on the normal conference review process, except iterated multiple times per year</strong>. This is in contrast to a pure journal model, where submissions would be accepted at all times of the year and each paper has its own review process schedule.  This means that each iteration of the review process starts at a specific time, all papers (either being new submissions or revisions of previously submitted papers) submitted by the deadline are reviewed simultaneously, and decisions on all papers are made and announced at the same time. The benefit of this structured iteration is that reviewing effort can be planned for by editorial board members and reviewers in advance of submissions arriving, and the progress of papers through the process is easier to track because all papers have the same set of deadlines. This will also make sure the revision process is quick and predictable for authors.</p>
-                    <h2 class="h3">Submissions</h2>
+                    <h2 id="submissions" class="h3">Submissions</h2>
                     <p><strong>Submission to EICS PACM should present original and mature research work</strong>. High-quality, elaborated case studies and practice reports with generalizable findings will also be considered.</p>
                     <p><strong>Papers should be written in the ACM small format</strong> (the linked page may say that PACMHCI uses the large format, but it is incorrect).</p>
                     <p><strong>There are no length restrictions on papers</strong>, nor any limit to the number of references that may be included.</p>
