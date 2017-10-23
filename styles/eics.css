@@ -29,6 +29,10 @@ main {
 main .illus {
     width: 100%;
 }
+main ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
 
 main hr {
     margin: 10px 0 0 0;
