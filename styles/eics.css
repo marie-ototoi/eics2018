@@ -1,5 +1,6 @@
 body {
     color: #333;
+    background: #fff;
 
 }
 
@@ -22,6 +23,9 @@ header .logos img {
     width: 30px;
 }
 
+main {
+    padding-bottom: 80px;
+}
 main .illus {
     width: 100%;
 }
@@ -40,4 +44,19 @@ main hr {
     background: #e6e6e6;
     margin-top: 30px;
     padding: 15px;
+}
+
+
+#footer ul {
+    margin: 0;
+    border: 1px solid #e7e7e7;
+    border-bottom: none;
+    text-align: center;
+}
+#footer li {
+    display: inline-block;
+}
+#footer a {
+    padding: 0 5px;
+    
 }
