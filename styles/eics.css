@@ -18,9 +18,14 @@ header .h4 {
 .banner img {
     width:100%;
 }
-
 header .logos img {
     width: 30px;
+}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+    background-color: #ddd;
+    color: #666;
 }
 
 main {
