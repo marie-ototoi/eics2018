@@ -38,7 +38,9 @@ main ul {
     padding-left: 0;
     list-style-position: inside;
 }
-
+.committee ul {
+    padding-bottom: 30px;
+}
 main hr {
     margin: 10px 0 0 0;
 }
