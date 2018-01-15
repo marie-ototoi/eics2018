@@ -1,3 +1,4 @@
 Options +FollowSymLinks
 RewriteEngine On
-RewriteRule ^2018/access$ 2018/access.html
+RewriteRule 2018/access http://eics.acm.org/2018/access.html
+RewriteRule 2018/access/ http://eics.acm.org/2018/access.html
