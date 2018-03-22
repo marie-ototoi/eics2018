@@ -58,7 +58,7 @@ main hr {
     padding: 15px;
 }
 main p, main ul, main dd {
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 main .nopadding {
     padding-bottom: 0;
