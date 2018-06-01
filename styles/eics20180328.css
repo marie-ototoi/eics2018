@@ -110,6 +110,10 @@ dd {
 
 }
 
+div.paper {
+    display:inline;
+}
+
 div.authors {
     font-style:italic;
     padding-left: 2em;
