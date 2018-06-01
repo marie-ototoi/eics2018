@@ -107,5 +107,11 @@ dd {
 }
 #footer a {
     padding: 0 5px;
-    
+
+}
+
+div.authors {
+    font-style:italic;
+    padding-left: 2em;
+    margin-bottom:1em;
 }
